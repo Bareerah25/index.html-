@@ -1,0 +1,104 @@
+
+.header {
+    display: flex;           
+    align-items: center;     
+    justify-content:space-between;
+    padding: 10px 20px;      
+    background-color: white; 
+}
+.logodiv{
+    display: flex;
+}
+.logo {
+    height: 100px;           
+    width: auto;
+    border-radius: 40px; 
+            
+}
+
+
+nav ul {
+    list-style: none;       
+    display: flex;     
+    gap: 15px;         
+
+}
+
+nav a {
+    text-decoration: none;  
+    color: #333;            
+    font-weight: bold;
+}
+.icon {
+    color: #0a0505;
+
+    
+    
+}
+.container{
+    height:500px;
+     background-color:rgb(245, 245, 45);
+     display: flex;
+    justify-content: row;
+}
+.inner{
+    box-sizing: border-box;
+    border: rgb(245, 245, 45) solid 2px;
+    padding:60px;
+    margin: 70px;
+    width: 550px;
+    height: 400px;
+    
+}
+.image{
+    height: 280px;
+border-radius: 40px;
+    
+    width: 430px;
+    
+}
+.button{
+    background-color:green;
+    border-radius:40px;
+    color: white;
+}
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+   flex-direction: column;
+}
+.in{
+    box-sizing: border-box;
+    border: 4px solid pink;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+.outfor{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: 400;
+    background-color: antiquewhite;
+}
+
+.off{
+    box-sizing: border-box;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 120px 
+    
+}
+h2{
+    text-align: center;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    
+}
